@@ -1,15 +1,15 @@
 class Swag < Formula
   desc "Swag converts Go annotations to Swagger Documentation 2.0."
   homepage "https://github.com/swaggo/swag"
-  version "1.6.7"
+  version "1.6.9"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/swaggo/swag/releases/download/v1.6.7/swag_1.6.7_Darwin_x86_64.tar.gz"
-    sha256 "bbd30049c904c615f1736c4f3438fb244b2ea4a7aa24779353449c8820915f4d"
+    url "https://github.com/swaggo/swag/releases/download/v1.6.9/swag_1.6.9_Darwin_x86_64.tar.gz"
+    sha256 "c472f063d7e020197d78d881034de50b82b597dba61c8ac42eb2ed432c59384b"
   elsif OS.linux?
-    url "https://github.com/swaggo/swag/releases/download/v1.6.7/swag_1.6.7_Linux_x86_64.tar.gz"
-    sha256 "8ee53c1f32bd7c0d0ff963b35ad6437d3757314c8269aac3a90955f99313e6ea"
+    url "https://github.com/swaggo/swag/releases/download/v1.6.9/swag_1.6.9_Linux_x86_64.tar.gz"
+    sha256 "6e22c2a736fa8e5d45a372035bb4bcdc2ca89e64912adef55bbd8d4bc047fdd1"
   end
 
   def install
